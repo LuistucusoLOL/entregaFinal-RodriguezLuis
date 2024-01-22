@@ -3,6 +3,7 @@ import ProductDetail from "../ProductDetail/ProductDetail";
 import { useParams } from "react-router-dom";
 import { db } from "../../services/config";
 import { getDoc, doc } from "firebase/firestore";
+import './ProductDetailContainer.css';
 
 const ProductDetailContainer = () => {
   const [producto, setProducto] = useState(null);
@@ -11,7 +12,7 @@ const ProductDetailContainer = () => {
   useEffect(() => {
     const obtenerProducto = async () => {
       try {
-        const referenciaProducto = doc(db, "inventario", idItem);
+        const referenciaProducto = doc(db, "INVENTARIO", idItem);
         const resultado = await getDoc(referenciaProducto);
 
         if (resultado.exists()) {

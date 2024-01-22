@@ -1,15 +1,14 @@
-
 import React, { useContext , } from 'react';
 import { CarritoContext } from '../../context/CarritoContext';
 import './CartItem.css';
 
-const CartItem = ({ item, cantidad }) => {
+const CartItem = ({ item, cantidad,img }) => {
   const { eliminarP } = useContext(CarritoContext);
 
   return (
     <div className='cart-item'>
       <div className="cart-item-image">
-        <img src={item.img} alt={item.nombre} />
+        <img src={img} alt={item.nombre} />
       </div>
 
       <div className="cart-item-info">

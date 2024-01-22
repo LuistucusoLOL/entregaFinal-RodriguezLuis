@@ -3,6 +3,7 @@ import Catalogo from "../Catalogo/Catalogo";
 import { useParams } from "react-router-dom";
 import { db } from "../../services/config";
 import { collection, getDocs, where, query } from "firebase/firestore";
+import './CatalogoContainer.css';
 
 const CatalogoContainer = () => {
   const [productos, setProductos] = useState([]);
@@ -12,8 +13,8 @@ const CatalogoContainer = () => {
     const obtenerProductos = async () => {
       try {
         const consultaProductos = idCategoria
-          ? query(collection(db, "inventario"), where("idCat", "==", idCategoria))
-          : collection(db, "inventario");
+          ? query(collection(db, "INVENTARIO"), where("idCat", "==", idCategoria))
+          : collection(db, "INVENTARIO");
 
         const resultado = await getDocs(consultaProductos);
 
