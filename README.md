@@ -4,24 +4,24 @@ Este proyecto de tienda en línea, denominado "lodePepe", ha sido desarrollado p
 
 ## Tecnologías Utilizadas
 
--React
--Vite
--React Router
--Firebase
+- React
+- Vite
+- React Router
+- Firebase
 
-## uncionalidades Destacadas
+## Funcionalidades Destacadas
 
--Explorar una lista de productos venezolanos bien ricos 😄.
--Agregar productos característicos al carrito de compras.
--Visualizar y gestionar el contenido del carrito con productos como arepas y empanadas.
--Finalizar la compra generando una orden de compra con sabores tradicionales.
+- Explorar una lista de productos venezolanos bien ricos 😄.
+- Agregar productos característicos al carrito de compras.
+- Visualizar y gestionar el contenido del carrito con productos como arepas y empanadas.
+- Finalizar la compra generando una orden de compra con sabores tradicionales.
 
-### Instalación
+## Instalación
 
--Clonar el repositorio en tu máquina local.
--Abrir una terminal en el directorio del proyecto.
--Ejecutar el comando npm install para descargar los módulos y las dependencias.
--Ejecutar el comando npm run dev para visualizar el proyecto.
+- Clonar el repositorio en tu máquina local.
+- Abrir una terminal en el directorio del proyecto.
+- Ejecutar el comando npm install para descargar los módulos y las dependencias.
+- Ejecutar el comando npm run dev para visualizar el proyecto.
 
 ## Licencia
 
