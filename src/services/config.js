@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import {getFirestore} from "firebase/firestore"; 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBI0dSh9-C7-pXdHv1rCicsGERlqKVSjTM",
+  apiKey: import.meta.env.VITE_API_KEY_FIREBASE_CONFIG,
   authDomain: "subtle-cubist-404921.firebaseapp.com",
   projectId: "subtle-cubist-404921",
   storageBucket: "subtle-cubist-404921.appspot.com",
