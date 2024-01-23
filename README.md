@@ -9,14 +9,14 @@ Este proyecto de tienda en línea, denominado "lodePepe", ha sido desarrollado p
 -React Router
 -Firebase
 
-## uncionalidades Destacadas
+## Funcionalidades Destacadas
 
 -Explorar una lista de productos venezolanos bien ricos 😄.
 -Agregar productos característicos al carrito de compras.
 -Visualizar y gestionar el contenido del carrito con productos como arepas y empanadas.
 -Finalizar la compra generando una orden de compra con sabores tradicionales.
 
-### Instalación
+## Instalación
 
 -Clonar el repositorio en tu máquina local.
 -Abrir una terminal en el directorio del proyecto.
